@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 994px;
+    }
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header .container {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header .container img {
+    width: 100px;
+    align-self: center;
+}
+
+header .container h1 {
+    font-size: 45px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+header .container p {
+    width: 70%;
+    margin: 0 auto;
+    color: var(--Grayish-Blue);
+}
+
+header .container .buttons {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container .buttons .down {
+    width: 45%;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+header .container .buttons .down:hover {
+    transform: scale(1.099);
+}
+
+header .container .buttons .down-ios {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 1px 1px 1px var(--Strong-Cyan);
+}
+
+header .container .buttons .down-mac {
+    background-color: var(--Light-Blue);
+    box-shadow: 1px 1px 1px var(--Light-Blue);
+}
+
+.head {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.head h2 {
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 20px;
+    font-size: 32px;
+
+}
+
+.head p {
+    color: var(--Grayish-Blue);
+}
+
+.snip {
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.snip .snipp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.snip .img {
+    width: 50%;
+    height: 470px;
+}
+
+.snip .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    left: -150px;
+}
+
+.snip .info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.snip .info li {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.snip .info h3 {
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 10px;
+}
+
+.snip .info p {
+    color: var(--Grayish-Blue);
+}
+
+.photos {
+    padding: 50px 0;
+}
+
+.photos .img {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.photos .img img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.workflow {
+    margin-bottom: 30px;
+}
+
+.workflow .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workflow .container .coulmn {
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workflow .container .coulmn img {
+    height: 30%;
+}
+
+.workflow .container .coulmn h3 {
+    color: var(--Dark-Grayish-Blue);
+    height: 15%;
+}
+
+.workflow .container .coulmn p {
+    color: var(--Grayish-Blue);
+    height: 40%;
+}
+
+.Compaines {
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.Compaines .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Compaines .container img {
+    width: 150px;
+    max-width: 100%;
+}
+
+.info {
+    width: 100%;
+    height: 45vh;
+    margin-bottom: 30px;
+}
+
+.info .container {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info .container h1 {
+    font-size: 45px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.info .container p {
+    width: 70%;
+    margin: 0 auto;
+    color: var(--Grayish-Blue);
+}
+
+.info .container .buttons {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info .container .buttons .down {
+    width: 45%;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.info .container .buttons .down:hover {
+    transform: scale(1.099);
+}
+
+.info .container .buttons .down-ios {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 1px 1px 1px var(--Strong-Cyan);
+}
+
+.info .container .buttons .down-mac {
+    background-color: var(--Light-Blue);
+    box-shadow: 1px 1px 1px var(--Light-Blue);
+
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #eee;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container img {
+    width: 60px;
+    height: 60px;
+    max-width: 100%;
+}
+
+footer .container .links {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer .container .links li {
+    width: fit-content;
+    margin: 15px 0;
+}
+
+footer .container .links a {
+    color: var(--Dark-Grayish-Blue);
+}
+
+footer .container .Socialmedia {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .Socialmedia li a img {
+    width: 20px;
+    height: 20px;
+    max-width: 100%;
+}
