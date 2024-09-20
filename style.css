@@ -33,13 +33,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
-@media (min-width: 1024px) {
-    .container {
-        width: 994px;
-    }
-}
-
 header {
     width: 100%;
     height: 100vh;
@@ -48,6 +41,8 @@ header {
     background-position: center;
     background-size: cover;
 }
+
+
 
 header .container {
     text-align: center;
@@ -91,7 +86,7 @@ header .container .buttons .down {
     font-size: 20px;
     transition: 0.5s;
     cursor: pointer;
-
+    border-bottom: 4px solid;
 }
 
 header .container .buttons .down:hover {
@@ -100,12 +95,14 @@ header .container .buttons .down:hover {
 
 header .container .buttons .down-ios {
     background-color: var(--Strong-Cyan);
-    box-shadow: 1px 1px 1px var(--Strong-Cyan);
+    border-color: hsl(171, 66%, 36%);
+    box-shadow: 4px 30px -5px hsl(171, 66%, 36%, 0.5);
 }
 
 header .container .buttons .down-mac {
     background-color: var(--Light-Blue);
-    box-shadow: 1px 1px 1px var(--Light-Blue);
+    border-color: hsl(233, 100%, 65%);
+    box-shadow: 4px 30px -5px hsl(233, 100%, 65%, 0.5);
 }
 
 .head {
@@ -156,6 +153,7 @@ header .container .buttons .down-mac {
     flex-direction: column;
 }
 
+
 .snip .info li {
     padding: 15px;
     margin-bottom: 20px;
@@ -169,7 +167,7 @@ header .container .buttons .down-mac {
 .snip .info p {
     color: var(--Grayish-Blue);
 }
-
+  
 .photos {
     padding: 50px 0;
 }
@@ -180,6 +178,7 @@ header .container .buttons .down-mac {
     text-align: center;
 
 }
+
 
 .photos .img img {
     width: 100%;
@@ -196,6 +195,7 @@ header .container .buttons .down-mac {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .workflow .container .coulmn {
     text-align: center;
@@ -217,10 +217,14 @@ header .container .buttons .down-mac {
     height: 15%;
 }
 
+
 .workflow .container .coulmn p {
     color: var(--Grayish-Blue);
     height: 40%;
+    line-height: 30px;
 }
+
+
 
 .Compaines {
     padding: 50px 0;
@@ -237,6 +241,7 @@ header .container .buttons .down-mac {
     width: 150px;
     max-width: 100%;
 }
+
 
 .info {
     width: 100%;
@@ -281,7 +286,7 @@ header .container .buttons .down-mac {
     font-size: 20px;
     transition: 0.5s;
     cursor: pointer;
-
+    border-bottom: 4px solid;
 }
 
 .info .container .buttons .down:hover {
@@ -290,18 +295,22 @@ header .container .buttons .down-mac {
 
 .info .container .buttons .down-ios {
     background-color: var(--Strong-Cyan);
-    box-shadow: 1px 1px 1px var(--Strong-Cyan);
+    border-color: hsl(171, 66%, 36%);
+    box-shadow: 4px 30px -5px hsl(171, 66%, 36%, 0.5);
 }
 
 .info .container .buttons .down-mac {
     background-color: var(--Light-Blue);
-    box-shadow: 1px 1px 1px var(--Light-Blue);
+    border-color: hsl(233, 100%, 65%);
+    box-shadow: 4px 30px -5px hsl(233, 100%, 65%, 0.5);
 
 }
 
+
+
 footer {
     padding: 50px 0;
-    background-color: #eee;
+    background-color: #eeeeee;
 }
 
 footer .container {
@@ -333,6 +342,10 @@ footer .container .links a {
     color: var(--Dark-Grayish-Blue);
 }
 
+footer .container .links a:hover{
+    color: var(--Strong-Cyan);
+}
+
 footer .container .Socialmedia {
     width: 110px;
     display: flex;
@@ -345,3 +358,185 @@ footer .container .Socialmedia li a img {
     height: 20px;
     max-width: 100%;
 }
+footer .Socialmedia a:hover img {
+    filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(120deg) brightness(100%) contrast(100%);
+}
+
+@media(max-width: 768px) {
+    header {
+        height: auto;
+        background-size: cover;
+    }
+
+    header .container {
+        padding: 20px;
+        text-align: center;
+        height: auto;
+        justify-content: center;
+    }
+
+    header .container h1 {
+        font-size: 32px;
+    }
+
+    header .container .buttons {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    header .container .buttons .down {
+        width: 80%;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+}
+@media(max-width: 768px) {
+    .snip .snipp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .snip .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .snip .info {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width: 768px) {
+    .workflow .container {
+        flex-direction: column;
+    }
+
+    .workflow .container .coulmn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .workflow .container .coulmn img {
+        height: 15%;
+    }
+}
+@media(max-width: 768px) {
+    .Compaines .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Compaines .container img {
+        margin: 10px 0;
+        width: 100px;
+    }
+}
+@media(max-width: 768px) {
+    footer {
+        padding: 20px 10px;  
+        text-align: center;  
+    }
+
+    footer .container {
+        flex-direction: column;  
+        align-items: center;  
+    }
+
+    footer .container img {
+        margin-bottom: 20px; 
+    }
+
+    footer .container .links {
+        flex-direction: column;  
+        align-items: center;  
+        padding: 0 20px;  
+    }
+
+    footer .container .links li {
+        margin-bottom: 10px;  
+    }
+
+    footer .container .Socialmedia {
+        margin-top: 20px;  
+        width: 100%;  
+        justify-content: center;
+        flex-direction: column;  
+    }
+
+    footer .container .Socialmedia li a img {
+        width: 30px;  
+        height: 30px;
+    }
+}
+@media(max-width: 768px) {
+    .info {
+        height: auto;  
+        margin-bottom: 20px;  
+    }
+
+    .info .container {
+        padding: 20px;  
+        text-align: center;  
+        justify-content: center; 
+    }
+
+    .info .container h1 {
+        font-size: 32px;  
+        margin-bottom: 15px;  
+    }
+
+    .info .container p {
+        width: 90%;  
+        font-size: 16px;  
+        margin-bottom: 20px;  
+    }
+
+    .info .container .buttons {
+        width: 100%;  
+        flex-direction: column;  
+    }
+
+    .info .container .buttons .down {
+        width: 80%;  
+        margin: 10px auto;  
+        font-size: 18px;  
+    }
+}
+@media(max-width: 768px) {
+    .photos {
+        display: flex;
+        flex-direction: column;  
+        align-items: center;  
+        padding: 20px;  
+    }
+
+    .photos .img {
+        width: 100%;  
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .photos .img img {
+        width: 90%;  
+        height: auto;  
+        border-radius: 10px;  
+    }
+
+    .photos .head {
+        width: 100%;  
+        text-align: center;  
+    }
+
+    .photos .head h2 {
+        font-size: 24px;  
+        margin-bottom: 15px;  
+    }
+
+    .photos .head p {
+        font-size: 16px;  
+        margin-bottom: 20px;  
+    }
+}
+
+
+
+
