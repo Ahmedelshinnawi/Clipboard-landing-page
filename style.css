@@ -378,6 +378,10 @@ footer .Socialmedia a:hover img {
     header .container h1 {
         font-size: 32px;
     }
+    header .container p{
+        margin: 30px 0;
+        line-height: 30px;
+    }
 
     header .container .buttons {
         width: 100%;
