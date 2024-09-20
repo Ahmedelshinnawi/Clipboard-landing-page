@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Clipboard](https://github.com/user-attachments/assets/ae63a264-a35a-409c-8b6a-1c74f83f6008)
+![Clipboard](https://github.com/user-attachments/assets/a0ba9e3d-37fb-43e0-bc0d-1a802eab44e8)
 
 
 ### Links
