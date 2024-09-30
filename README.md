@@ -18,8 +18,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-
-![Clipboard](https://github.com/user-attachments/assets/a0ba9e3d-37fb-43e0-bc0d-1a802eab44e8)
+![Frontend-Mentor-Clipboard-landing-page-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/b9390034-ced4-4f0f-9343-102fbc722190)
 
 
 ### Links
