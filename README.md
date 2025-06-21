@@ -25,6 +25,7 @@ Users should be able to:
 
 - Solution URL: [HTML](https://github.com/Ahmedelshinnawi/Clipboard-landing-page/blob/main/index.html)
 - Solution URL: [CSS](https://github.com/Ahmedelshinnawi/Clipboard-landing-page/blob/main/style.css)
+- Solution URL: [JS](https://github.com/Ahmedelshinnawi/Clipboard-landing-page/blob/main/script.js)
 - Live Site URL: [Live Site](https://ahmedelshinnawi.github.io/Clipboard-landing-page/)
 
 ## My process
@@ -33,6 +34,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- JavaScript
 
 ## Author
 - Frontend Mentor - [@Ahmedelshinnawi](https://www.frontendmentor.io/profile/Ahmedelshinnawi)
